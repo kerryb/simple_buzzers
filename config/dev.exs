@@ -2,8 +2,6 @@ import Config
 
 # Configure your database
 config :simple_buzzers, SimpleBuzzers.Repo,
-  username: "postgres",
-  password: "postgres",
   hostname: "localhost",
   database: "simple_buzzers_dev",
   stacktrace: true,
